@@ -7,6 +7,9 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 """
 
 defmodule ProjectEuler.Problem2 do
+  """
+  solution = sum_fibonacci_evens_up_to(4_000_000)
+  """
   def sum_fibonacci_evens_up_to(limit) do
     fibonacci_up_to(limit)
     |> Stream.filter(&even?/1)

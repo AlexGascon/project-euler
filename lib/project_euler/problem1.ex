@@ -5,6 +5,9 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 """
 
 defmodule ProjectEuler.Problem1 do
+  """
+  solution = sum_multiples_of([3, 5], 1000)
+  """
   def sum_multiples_of(multiples, limit) do
     1..(limit-1)
     |> Stream.filter(&is_multiple_of_any?(&1, multiples))
