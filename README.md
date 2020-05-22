@@ -9,5 +9,8 @@ Project Euler is a series of challenging mathematical/computer programming probl
 * [Problem 4 - Largest palindrome product](lib/project_euler/problem4.ex)
 * [Problem 5 - Smallest multiple](lib/project_euler/problem5.ex)
 * [Problem 6 - Sum square difference](lib/project_euler/problem6.ex)
+* [Problem 7 - 10001st prime](lib/project_euler/problem7.ex)
 * [Problem 8 - Largest product in a series](lib/project_euler/problem8.ex)
 * [Problem 9 - Special Pythagorean triplet](lib/project_euler/problem9.ex)
+* [Problem 10 - Summation of primes](lib/project_euler/problem10.ex)
+* [Problem 11 - Largest product in a grid](lib/project_euler/problem11.ex)
